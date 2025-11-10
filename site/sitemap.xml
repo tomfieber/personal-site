@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url>
+        <loc>https://tomfieber.dev/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/How-To/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/How-To/Create-an-Ubuntu-VM/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/Interview-Questions/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/Interview-Questions/general/encryption-vs-encoding/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/projects/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/projects/Web-Development/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/projects/courses/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/writeups/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/writeups/PortSwigger/SQL-Injection/_cheatsheet/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/writeups/PortSwigger/SQL-Injection/lab-1-basic-sqli/</loc>
+      </url>
+</urlset>
