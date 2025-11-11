@@ -1,68 +1,28 @@
-name: Build & Deploy Zensical to Pages
-
+name: Documentation
 on:
   push:
-    branches: [main]
-
+    branches:
+      - master
+      - main
 permissions:
   contents: read
   pages: write
   id-token: write
-
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive # if your theme/content lives in a submodule
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12" # or whatever Zensical supports
-
-      - name: Install Zensical
-        run: |
-          python -m pip install --upgrade pip
-          pip install zensical
-
-      - name: Inspect workspace
-        run: |
-          pwd
-          ls -la
-          # If your site is in a subdir, list it too:
-          ls -la site || true
-          ls -la themes || true
-          ls -la content || true
-
-      - name: Build site
-        env:
-          RUST_BACKTRACE: "1"
-        run: |
-          # If config is in repo root and named zensical.toml:
-          test -f zensical.toml && echo "found zensical.toml"
-          mkdir -p public
-          zensical build -c zensical.toml --clean
-          # If your config is in a subfolder:
-          # zensical build -c site/zensical.toml --clean
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: public # match your out_dir
-
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: pip install zensical
+      - run: zensical build --clean
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
