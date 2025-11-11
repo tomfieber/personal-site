@@ -1,3 +1,0 @@
-# Basic SQL Injection
-
-Something

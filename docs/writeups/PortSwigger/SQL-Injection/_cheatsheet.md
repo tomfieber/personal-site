@@ -1,3 +1,0 @@
-# SQL Injection Cheatsheet
-
-- [ ] Something

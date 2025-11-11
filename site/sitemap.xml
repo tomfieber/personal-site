@@ -4,12 +4,6 @@
         <loc>https://tomfieber.dev/</loc>
       </url>
       <url>
-        <loc>https://tomfieber.dev/How-To/</loc>
-      </url>
-      <url>
-        <loc>https://tomfieber.dev/How-To/Create-an-Ubuntu-VM/</loc>
-      </url>
-      <url>
         <loc>https://tomfieber.dev/Interview-Questions/</loc>
       </url>
       <url>
@@ -25,12 +19,60 @@
         <loc>https://tomfieber.dev/projects/courses/</loc>
       </url>
       <url>
-        <loc>https://tomfieber.dev/writeups/</loc>
+        <loc>https://tomfieber.dev/resources/</loc>
       </url>
       <url>
-        <loc>https://tomfieber.dev/writeups/PortSwigger/SQL-Injection/_cheatsheet/</loc>
+        <loc>https://tomfieber.dev/resources/How-To/Create-an-Ubuntu-VM/</loc>
       </url>
       <url>
-        <loc>https://tomfieber.dev/writeups/PortSwigger/SQL-Injection/lab-1-basic-sqli/</loc>
+        <loc>https://tomfieber.dev/resources/Methodology/OWASP-WSTG/wstg/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/Authentication/authn-lab-1/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/Authentication/authn-lab-2/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/Authentication/authn-lab-3/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/Authentication/authn-lab-4/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/Authentication/authn-lab-5/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/Authentication/authn-lab-8/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/Authentication/authn-lab-9/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/Authorization/authz-lab-1/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/Authorization/authz-lab-5/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/Authorization/authz-lab-9/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/SQL-Injection/_cheatsheet/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/SQL-Injection/sqli-lab-1/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/SQL-Injection/sqli-lab-2/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/SQL-Injection/sqli-lab-3/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/SQL-Injection/sqli-lab-4/</loc>
+      </url>
+      <url>
+        <loc>https://tomfieber.dev/resources/PortSwigger/SQL-Injection/sqli-lab-5/</loc>
       </url>
 </urlset>
